@@ -29,10 +29,10 @@ async function main() {
     // En caso de no existir el directorio, lo creamos con mkdir
     await fs.mkdir(directorioArchivos, { recursive: true });
 
-    // Creación del archivo .txt
+    // Creación del archivo .txt, llamado de la función dentro del archivo crearTexto.js
     await crearArchivoTxt(nuevoContenido, nuevoTxtDir);
 
-    // Convertir archivo .txt a .pdf
+    // Convertir archivo .txt a .pdf, llamado de la función dentro del archivo convertidor.js
     await convertirAPDF(directorioArchivos, nombreArchivoTxt, nombreArchivoPDF);
 
     // Ejecución del contador de palabras en el archivo .txt, usamos la función del archivo .js correspondiente
