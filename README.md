@@ -71,4 +71,4 @@ Crear una aplicación en Node.JS que permita contar la cantidad de palabras en u
 texto especificado por el usuario. La aplicación debe aceptar la ruta del archivo de texto
 como argumento de línea de comando y mostrar el resultado en la consola de Linux.
 
-El texto especificado serà el creado, la ùnica diferencia con lo que requiere la consigna, es el hecho de que la funciòn se ejecutarà una vez creado el texto, y convertido a .pdf, la ruta de archivo del texto 
+El texto especificado serà el creado, la ùnica diferencia con lo que requiere la consigna, es el hecho de que la funciòn entra en ejecución una vez creado el texto, y convertido a .pdf.
