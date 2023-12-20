@@ -28,7 +28,7 @@ module.exports = { crearArchivoTxt };
 El codigo en cuestión representa una ejecución de una función asíncrona, que intenta crear un archivo y el contenido de este mismo, el código será llamado durante la ejecución de app.js
 
 ```
-Parte del còdigo que interactuarà con crearTexto.js
+Parte del código que interactuarà con crearTexto.js
 
 const directorioArchivos = path.join(__dirname, "archivos");
 const nombreArchivoTxt = "miArchivo.txt"; 
@@ -71,4 +71,4 @@ Crear una aplicación en Node.JS que permita contar la cantidad de palabras en u
 texto especificado por el usuario. La aplicación debe aceptar la ruta del archivo de texto
 como argumento de línea de comando y mostrar el resultado en la consola de Linux.
 
-El texto especificado serà el creado, la ùnica diferencia con lo que requiere la consigna, es el hecho de que la funciòn entra en ejecución una vez creado el texto, y convertido a .pdf.
+El texto especificado será el creado, la única diferencia con lo que requiere la consigna, es el hecho de que la función entra en ejecución una vez creado el texto, y convertido a .pdf.
