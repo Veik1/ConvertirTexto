@@ -3,7 +3,7 @@ Aplicación para crear texto, convertirlo a .pdf y realizar un conteo de palabra
 
 Como ejecutarlo?
 En la terminal, se debe ejecutar el comando **node app.js** estando dentro del directorio donde se encuentra el código descargado
-En caso de no ejecutarse el còdigo por la falta de los mòdulos que se utilizaràn, al poseer los archivos .json, solo se ejecuta el comando **npm install**
+En caso de no ejecutarse el còdigo por la falta de los módulos que se utilizarán, al poseer los archivos .json, solo se ejecuta el comando **npm install**
 
 Los codigos poseen estas consignas
 
